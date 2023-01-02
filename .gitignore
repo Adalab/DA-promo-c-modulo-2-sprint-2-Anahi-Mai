@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# elimino entradas de .DS_Store
+.DS_Store
