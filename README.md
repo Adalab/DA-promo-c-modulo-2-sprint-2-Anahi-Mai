@@ -9,28 +9,28 @@ Anahi Morales y Marina Ruiz
 LIMPIEZA
 
 - Limpieza I: Introducción --> Hechos / Comentados
-    - Eliminar columnas  con .drop().
-    - Duplicados con .duplicated().
-    - Cambio del tipo de datos en columnas a traves de .astype().
+    - Eliminar columnas  con _.drop()_.
+    - Duplicados con _.duplicated()_.
+    - Cambio del tipo de datos en columnas a traves de _.astype()_.
     - Uniformidad en los datos de las columnas.
 
 - Limpieza II: Strings --> Hechos / Comentados
-    - Extraccion de datos importantes a traves de patrones de Regex
-    - Uso de .apply()
-    - Cambio del tipo de datos en columnas a traves de pd.to_numeric().
+    - Extraccion de datos importantes a traves de patrones de _Regex_
+    - Uso de _.apply()_.
+    - Cambio del tipo de datos en columnas a traves de _pd.to_numeric()_.
 
 - Limpieza III: Valores extremos/Outliers --> Hechos / Comentados
     - Deteccion de outliers en columnas numericas.
-    - Uso de np.nanpercentile.
-    - Visualizacion de boxplot.
+    - Uso de _np.nanpercentile_.
+    - Visualizacion a traves de _boxplot_.
 
 - Limpieza IV: Valores nulos --> Hechos / Comentados
-    - Uso de .stb.missing() para ver porcentajes de nulos.
-    - Reemplazo de nulos a traves de metodo .fillna() y .replace().
+    - Uso de ._stb.missing()_ para ver porcentajes de nulos.
+    - Reemplazo de nulos a traves de metodo _.fillna()_ y _.replace()_.
    
 - Limpieza V: Valores nulos Sklearn --> Hechos / Comentados
-    - Uso del metodo Simple Imputer para reemplazar nulos.
-    - Uso metodo KNN  y Interative Imputer para reemplazar valores nulos de columnas numericas.
+    - Uso del metodo _Simple Imputer- para reemplazar nulos.
+    - Uso metodo _KNN_ y _Interative Imputer_ para reemplazar valores nulos de columnas numericas.
     
 
 ---
@@ -38,29 +38,35 @@ LIMPIEZA
 EDA
 
 - EDA I: Introducción --> Hechos / Comentados
-    - Uso de metodos .head(), .shape, .columns para analisis exploratorio del dataframe.
+    - Uso de metodos _.head(), .shape, .columns_ para analisis exploratorio del dataframe.
     - Porcentaje de valores nulos.
-    - Tipos de datos en cada columna con .dtypes.
-    - Informacion general de dataframe con el uso de .info()
-    - Uso de .describe() separando entre variables numericas y categoricas.
+    - Tipos de datos en cada columna con _.dtypes_.
+    - Informacion general de dataframe con el uso de _.info()_.
+    - Uso de _.describe()_ separando entre variables numericas y categoricas.
     - Creacion de un dataframe que contiene los unique de cada columna.
     
 
 - EDA II: Nulos y valores extremos --> Hechos / Comentados
-    - Uso de libreria sidetable para identificar valores nulos con **.stb.missing()**
-    - Analisis de variables en columnas teniendo en cuenta la frecuecia de las mismas con distintos porcentajes de acumulados con .stb.freq()
+    - Uso de libreria sidetable para identificar valores nulos con _.stb.missing()_
+    - Analisis de variables en columnas teniendo en cuenta la frecuecia de las mismas con distintos porcentajes de acumulados con _.stb.freq()_.
 
 - EDA III: Outliers --> Hechos / Comentados
-
-
+        - Visualizacion de datos a traves de _countplot_.
+        - Uso de _pd.cut()_ para categorizar columnas.
+        - Analisis de datos a traves de graficas.
 
 ---
 
 ETL
 
 - ETL I: Extracción- API's --> Hechos / Comentados
+        - Extraccion de datos de API de clima.
+        - Tratamiento para poder desempaquetar los datos obtenidos en un dataframe con el uso           de _pd.json_normalize_, for loop para iterar sobre los mismos y uso de _pd.concat()_           para union de datos.
 
 - ETL II : Transformación I - Limpieza --> 
+        -Transformacion de datos con el uso de _.apply(pd.Series)_.
+        - Uso de _.groupby()_ para obtener la media por paises.
+        - Union de archivos a traves de _.merge()_.
 
 - ETL III: Transformación II - Clases y Funciones de limpieza --> 
 
