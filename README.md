@@ -52,23 +52,23 @@ EDA
     
 
 - EDA III: Outliers --> Hechos / Comentados
-        - Visualizacion de datos a traves de _countplot_.
-        - Uso de _pd.cut()_ para categorizar columnas.
-        - Analisis de datos a traves de graficas.
+    - Visualizacion de datos a traves de _countplot_.
+    - Uso de _pd.cut()_ para categorizar columnas.
+    - Analisis de datos a traves de graficas.
 
 ---
 
 ETL
 
 - ETL I: Extracción- API's --> Hechos / Comentados
-        - Extraccion de datos de API de clima.
-        - Tratamiento para poder desempaquetar los datos obtenidos en un dataframe con el uso           de _pd.json_normalize_, for loop para iterar sobre los mismos y uso de _pd.concat()_           para union de datos.
+    - Extraccion de datos de API de clima.
+    - Tratamiento para poder desempaquetar los datos obtenidos en un dataframe con el uso           de _pd.json_normalize_, for loop para iterar sobre los mismos y uso de _pd.concat()_           para union de datos.
         
 
 - ETL II : Transformación I - Limpieza --> 
-        -Transformacion de datos con el uso de _.apply(pd.Series)_.
-        - Uso de _.groupby()_ para obtener la media por paises.
-        - Union de archivos a traves de _.merge()_.
+    -Transformacion de datos con el uso de _.apply(pd.Series)_.
+    - Uso de _.groupby()_ para obtener la media por paises.
+    - Union de archivos a traves de _.merge()_.
         
 
 - ETL III: Transformación II - Clases y Funciones de limpieza --> 
