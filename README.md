@@ -98,4 +98,4 @@ ETL
     - Creamos una clase automatizando la creacion de base de datos, creacion de tablas e insercion de datos.
 
 - ETL VI: Transformación II - Ejecutable - Pipeline ETL
-    -Creamos dos archivos con extension '.py' donde   almacenamos las distintas  clases creadas  en los anteriores pairprogrammings.
+    - Creamos dos archivos con extension '.py' donde   almacenamos las distintas  clases creadas  en los anteriores pairprogrammings.
